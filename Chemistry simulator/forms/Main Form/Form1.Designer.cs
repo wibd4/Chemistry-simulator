@@ -28,17 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
+            button1 = new Button();
             SuspendLayout();
+            // 
+            // button1
+            // 
+            button1.Location = new Point(363, 274);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 0;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
             // 
             // Main_Window
             // 
             AutoScaleMode = AutoScaleMode.None;
             ClientSize = new Size(1200, 900);
+            Controls.Add(button1);
             Name = "Main_Window";
             Text = "Chemistry";
             ResumeLayout(false);
         }
 
         #endregion
+
+        private Button button1;
     }
 }
